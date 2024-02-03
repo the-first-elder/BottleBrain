@@ -2,7 +2,7 @@
 
 ## Introduction
 
-BottleBrain is a machine learning model designed to predict the quality of a wine based on its characteristics using the [Red and White Wine Quality Analysis Model](https://www.kaggle.com/datasets/saigeethac/red-and-white-wine-quality-datasets). Built on the Cartesi DApp, BottleBrain leverages the power of blockchain technology to provide a transparent, secure, and efficient wine quality prediction service.
+BottleBrain is a Dapp build using a machine learning model designed to predict the quality of a wine based on its characteristics using the [Red and White Wine Quality Analysis Model](https://www.kaggle.com/datasets/saigeethac/red-and-white-wine-quality-datasets). Built on the Cartesi Machine, BottleBrain leverages the power of blockchain technology to provide a transparent, secure, and efficient wine quality prediction service.
 
 ## Getting Started
 
@@ -31,7 +31,7 @@ Sunodo is a powerful tool for managing and deploying applications. To install Su
 ## Clone the repository:
 
 ```javascript
-git clone https://github.com/the-first-elder/BottleBrain.git
+git clone https://github.com/forge-innovate/BottleBrain.git
 sunodo build
 sunodo run
 ```
@@ -63,18 +63,17 @@ acid" : 0 , "residual sugar" : 1.9 , "chlorides" : 0.076 , "free sulfur dioxide"
 
 Input the following:
 
-
 > sunodo send generic <br/>
->    Select Foundry <br/>
->    Use Default Rpc Url <br/>
->    Use Default Wallet Mnemonic <br/>
->    select any address <br/>
->    use Default Dapp Address <br/>
->    select string encoding and input `example request stated above` as requested string
+> Select Foundry <br/>
+> Use Default Rpc Url <br/>
+> Use Default Wallet Mnemonic <br/>
+> select any address <br/>
+> use Default Dapp Address <br/>
+> select string encoding and input `example request stated above` as requested string
 
 ## Result
 
-A payload is generated in hexadecimal but reads on a scale of 1 - 10 measuring from bad to good 
+A payload is generated in hexadecimal but reads on a scale of 1 - 10 measuring from bad to good.
 
 ## Contributing
 
